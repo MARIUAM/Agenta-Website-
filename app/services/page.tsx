@@ -12,7 +12,8 @@ import {
   Network,
   Shield,
   Sparkles,
-  Zap
+  Zap,
+  ArrowRight
 } from "lucide-react"
 
 const services = [

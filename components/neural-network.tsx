@@ -109,7 +109,7 @@ export function NeuralNetwork() {
       connections.forEach((line, i) => {
         const time = Date.now() * 0.001
         const pulse = (Math.sin(time + i * 0.1) + 1) * 0.5
-        line.material.opacity = 0.1 + pulse * 0.2
+        ;(line.material as THREE.LineBasicMaterial).opacity = 0.1 + pulse * 0.2
       })
 
       renderer.render(scene, camera)
