@@ -171,7 +171,7 @@ export default function Home() {
           <div className="text-center space-y-8">
           <div className="inline-flex items-center space-x-2 bg-primary/10 rounded-full px-4 py-1.5 mb-8">
   <CircuitBoard className="h-4 w-4 text-primary" />
-  <Typewriter text=" Powered by Maryam Saleem " className="text-sm font-semibold" />
+  <Typewriter text=" Ppowered by Maryam Saleem " className="text-sm font-semibold" />
 </div>
             
             <h1 className="text-4xl md:text-7xl font-bold tracking-tight">
@@ -187,12 +187,14 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Button size="lg" asChild>
+              {/* <Button size="lg" asChild>
                 <Link href="/contact">
                   Get Started
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
-              </Button>
+              </Button> */}
+
+
               {/* <Button size="lg" variant="outline" asChild>
                 <Link href="/services">Explore Services</Link>
               </Button> */}
@@ -200,7 +202,8 @@ export default function Home() {
 
 
 
-         <br></br>
+
+
 
             {/* Quick Links Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
@@ -227,6 +230,12 @@ export default function Home() {
 
             {/* Quick Info Sections */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+           
+
+
+
+
+           
               {/* Quick FAQs */}
               <div className="rounded-2xl border bg-background/50 backdrop-blur-sm p-6">
                 <div className="flex items-center gap-3 mb-4">
@@ -249,7 +258,12 @@ export default function Home() {
                 </div>
               </div>
 
+
+
+
+          
               {/* Quick Contact */}
+
               <div className="rounded-2xl border bg-background/50 backdrop-blur-sm p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <Phone className="h-5 w-5 text-primary" />

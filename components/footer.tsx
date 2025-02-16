@@ -41,19 +41,35 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "+0333-207317"
+    value: "+0333-207317",
+    href: "tel:+0333207317"
   },
   {
     icon: Mail,
     label: "Email",
-    value: "maryamsaleem20102001@gmail.com"
+    value: "maryamsaleem20102001@gmail.com",
+    href: "mailto:maryamsaleem20102001@gmail.com"
   },
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "Agenta Ai karachi pakistan"
+    value: "Agenta Ai Karachi, Pakistan",
+    href: "https://maps.google.com/?q=Agenta+Ai+Karachi+Pakistan"
+  },
+  {
+    icon: "GithubIcon", // Tumhari icon library ka sahi naam do
+    label: "GitHub",
+    value: "github.com/MARIUAM",
+    href: "https://github.com/MARIUAM"
+  },
+  {
+    icon: "LinkedinIcon", // Tumhari icon library ka sahi naam do
+    label: "LinkedIn",
+    value: "linkedin.com/in/maryamsaleem",
+    href: "https://www.linkedin.com/in/maryamsaleem"
   }
-]
+];
+
 
 export function Footer() {
   return (

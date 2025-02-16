@@ -91,7 +91,7 @@ export default function ContactPage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <Card className="gradient-border">
+              <Card className="">
                 <CardHeader>
                   <CardTitle>Send us a Message</CardTitle>
                   <CardDescription>
@@ -132,7 +132,7 @@ export default function ContactPage() {
                     </div>
                     <Button
                       type="submit"
-                      className="w-full animate-glow"
+                      className="w-full "
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (
@@ -189,7 +189,7 @@ export default function ContactPage() {
                         <p className="text-muted-foreground">Available 24/7</p>
                       </div>
                     </div>
-                    <Button className="w-full animate-glow" variant="outline">
+                    <Button className="w-full " variant="default">
                       Start Chat
                     </Button>
                   </CardContent>

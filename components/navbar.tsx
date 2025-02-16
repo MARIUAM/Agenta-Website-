@@ -88,7 +88,7 @@ export function Navbar() {
             <ThemeToggle />
             <Button
               asChild
-              className="hidden md:inline-flex animate-glow"
+              className="hidden md:inline-flex "
               variant="default"
             >
               <Link href="/get-started">Get Started</Link>
